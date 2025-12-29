@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8">
+  <title>Gunyo Choli Invitation</title>
+
+  <!-- Nepali Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Noto Serif Devanagari", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+
+      /* Velvet background */
+      background-color: #8b0000; /* deep red velvet */
+      background-image: radial-gradient(rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    .card {
+      position: relative;
+      background: #ffffff;
+      border: 6px double #ffd700; /* gold border */
+      padding: 40px 30px;
+      max-width: 650px;
+      width: 90%;
+      text-align: center;
+      line-height: 1.9;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+      /* Optional main background symbol */
+      background-blend-mode: lighten;
+    }
+
+    /* Shadow watermark using gunyo.jpg */
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-image: url('gunyo.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 700px 800px;
+      opacity: 0.20; /* faint symbol */
+      pointer-events: none;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #8b0000;
+      margin-bottom: 25px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .names {
+      font-size: 24px;
+      font-weight: 700;
+      color: #8b0000;
+      margin: 10px 0 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .section {
+      margin-bottom: 16px;
+      font-size: 16px;
+      color: #333;
+      position: relative;
+      z-index: 1;
+    }
+
+    .details {
+      margin-top: 25px;
+      font-size: 12px;
+      font-weight: 600;
+      position: relative;
+      z-index: 1;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 600;
+      position: relative;
+      z-index: 1;
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+      }
+      .card {
+        box-shadow: none;
+        border: 4px double #000;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .title {
+        font-size: 24px;
+      }
+      .names {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="title">शुभ–निमन्त्रणा / Auspicious Invitation</div>
+	<div class="section">
+      ईश्वरको कृपा तथा परिवारजनको आशीर्वादसहित हाम्रा प्रिय छोरीहरू
+    </div>
+		<div class="names">
+      ईभा ✿ अविका
+  
+
+    <div class="section">
+      को गुन्यू–चोली (नारीत्व प्रवेश) को पावन संस्कारको
+      शुभ अवसरमा हजुर तथा हजुरको परिवारलाई स–सम्मान उपस्थित भई आशीर्वाद प्रदान गरिदिनुहुन
+	हार्दिक निमन्त्रणा गर्दछौं।
+    </div>
+
+    <div class="section">
+      यो शुभ संस्कारले उनीहरूको जीवनमा
+      नयाँ चरणको सुरुवात गर्दै
+      संस्कार र संस्कृतिको गरिमालाई
+      निरन्तरता दिनेछ।
+    </div>
+	 <div class="section">
+	  We warmly invite you and your family to join us in celebrating 
+	  the Gunyu–Choli (rite of passage into womanhood) ceremony of our beloved daughters, Eva & Avika, as we honor this significant 
+	  milestone in their lives with your esteemed presence and blessings.
+	  </div>
+
+    <div class="details">
+	Date & Time: 7 February 2026, 5:00 PM - 9:30 PM<br>
+	Venue:
+	Knights of Columbus
+	2320 Hatfield Rd
+	Pearland, TX 77581
+      
+    </div>
+
+    <div class="footer">
+   
+      प्रार्थी<br>
+      मनोज &amp; दिक्ष्या सुवेदी परिवार
+    </div>
+  
+</body>
+</html>
